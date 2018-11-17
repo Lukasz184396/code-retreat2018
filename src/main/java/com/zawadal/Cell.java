@@ -16,4 +16,13 @@ public class Cell {
     public State getState() {
         return this.state;
     }
+
+    public State getNextState() {
+        if(neighbourHood.numberOfNeighbours == 2 || neighbourHood.numberOfNeighbours == 3) {
+            return new State(true);
+        } else {
+            return new State(false);
+        }
+
+    }
 }

@@ -13,7 +13,7 @@ public class AppTest
     @Test
     public void ifCellIsAliveAndHasTwoNeighboursShouldBeAlive() {
         Cell cell = new Cell(new State(true), new NeighbourHood(2));
-        Assert.assertEquals(new State(true), cell.getState());
+        Assert.assertEquals(new State(true), cell.getNextState());
     }
     @Test
     public void ifCellIsAliveAndHasThreeNeighboursShouldBeAlive() {
