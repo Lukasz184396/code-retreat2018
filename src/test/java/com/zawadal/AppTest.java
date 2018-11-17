@@ -38,6 +38,12 @@ public class AppTest
         Assert.assertEquals(new State(true), cell.getNextState());
     }
 
+    @Test
+    public void ifCellIsDeadAndHasMoreThreeNeighboursShouldBeAlive2() {
+        Cell cell = new Cell(new State(false), new NeighbourHood(2));
+        Assert.assertEquals(new State(false), cell.getNextState());
+    }
+
 
 
 
