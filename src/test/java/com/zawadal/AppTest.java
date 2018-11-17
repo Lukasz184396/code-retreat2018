@@ -1,6 +1,7 @@
 package com.zawadal;
 
 
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,9 +11,16 @@ import org.junit.Test;
 public class AppTest
 {
     @Test
-    public void tst() {
-
+    public void ifCellIsAliveAndHasTwoNeighboursShouldBeAlive() {
+        Cell cell = new Cell(new State(true), new NeighbourHood(2));
+        Assert.assertEquals(new State(true), cell.getState());
     }
+    @Test
+    public void ifCellIsAliveAndHasThreeNeighboursShouldBeAlive() {
+        Cell cell = new Cell(new State(true), new NeighbourHood(3));
+        Assert.assertEquals(new State(true), cell.getState());
+    }
+
 
 
 }
