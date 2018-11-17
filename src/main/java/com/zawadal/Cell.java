@@ -1,8 +1,8 @@
 package com.zawadal;
 
 public class Cell {
-    State state;
-    NeighbourHood neighbourHood;
+    private State state;
+    private NeighbourHood neighbourHood;
 
     public Cell(State state) {
         this.state = state;
@@ -18,11 +18,23 @@ public class Cell {
     }
 
     public State getNextState() {
-        if(neighbourHood.numberOfNeighbours == 2 || neighbourHood.numberOfNeighbours == 3) {
+        if(neighbourHood.getNumberOfNeighbours() == 2 || neighbourHood.getNumberOfNeighbours() == 3) {
             return new State(true);
         } else {
             return new State(false);
         }
 
+    }
+
+    public void setState(State state) {
+        this.state = state;
+    }
+
+    public NeighbourHood getNeighbourHood() {
+        return neighbourHood;
+    }
+
+    public void setNeighbourHood(NeighbourHood neighbourHood) {
+        this.neighbourHood = neighbourHood;
     }
 }

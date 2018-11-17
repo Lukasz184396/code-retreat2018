@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ee1e529-900a-4425-9170-4557d4d26226" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zawadal/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zawadal/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zawadal/NeighbourHood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zawadal/NeighbourHood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zawadal/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zawadal/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zawadal/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zawadal/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zawadal/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zawadal/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zawadal/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zawadal/AppTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,13 +35,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3306" />
+          <entry key="java" value="3323" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3306" />
+          <entry key="JAVA" value="3323" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -62,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zawadal/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,29 +70,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/Cell.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="109">
+              <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
               <folding>
                 <element signature="e#89#90#0" expanded="true" />
                 <element signature="e#123#124#0" expanded="true" />
                 <element signature="e#329#330#0" expanded="true" />
                 <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/NeighbourHood.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="135">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
               <folding>
                 <element signature="e#137#138#0" expanded="true" />
                 <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,13 +110,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="298">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#103#104#0" expanded="true" />
                 <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,9 +170,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zawadal/Board.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zawadal/Neighbour.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zawadal/Neighbourhood.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zawadal/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zawadal/NeighbourHood.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zawadal/State.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zawadal/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zawadal/Cell.java" />
       </list>
     </option>
@@ -260,7 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542460044380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542460845881" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
@@ -336,12 +347,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.11.17 at 13h 59m 25s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2018.11.17 at 13h 59m 30s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2018.11.17 at 14h 02m 10s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -366,6 +371,12 @@
     <history-entry file="AppTest - 2018.11.17 at 14h 17m 15s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2018.11.17 at 14h 19m 13s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2018.11.17 at 14h 20m 44s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -387,7 +398,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32786885" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="DB Execution Console" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -432,34 +443,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/NeighbourHood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="51" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="298">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#414#415#0" expanded="true" />
             <element signature="e#103#104#0" expanded="true" />
             <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zawadal/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        <state relative-caret-position="270">
+          <caret line="21" column="54" lean-forward="true" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -468,13 +471,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="109">
+          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
           <folding>
             <element signature="e#89#90#0" expanded="true" />
             <element signature="e#123#124#0" expanded="true" />
             <element signature="e#329#330#0" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zawadal/NeighbourHood.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
           </folding>
         </state>
       </provider>

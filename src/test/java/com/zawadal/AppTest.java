@@ -15,10 +15,11 @@ public class AppTest
         Cell cell = new Cell(new State(true), new NeighbourHood(2));
         Assert.assertEquals(new State(true), cell.getNextState());
     }
+
     @Test
     public void ifCellIsAliveAndHasThreeNeighboursShouldBeAlive() {
         Cell cell = new Cell(new State(true), new NeighbourHood(3));
-        Assert.assertEquals(new State(true), cell.getState());
+        Assert.assertEquals(new State(true), cell.getNextState());
     }
 
 
