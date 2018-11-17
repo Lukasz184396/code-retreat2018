@@ -1,7 +1,5 @@
 package com.zawadal;
 
-
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -43,10 +41,5 @@ public class AppTest
         Cell cell = new Cell(new State(false), new NeighbourHood(2));
         Assert.assertEquals(new State(false), cell.getNextState());
     }
-
-
-
-
-
 
 }
