@@ -20,6 +20,8 @@ public class Cell {
     public State getNextState() {
         if(neighbourHood.getNumberOfNeighbours() == 2 || neighbourHood.getNumberOfNeighbours() == 3) {
             return new State(true);
+        } else if (neighbourHood.getNumberOfNeighbours() == 4){
+            return new State(false);
         } else {
             return new State(false);
         }
